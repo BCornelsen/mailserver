@@ -1,14 +1,8 @@
-:warning:
+# bcornelsen/mailserver
+(Forked from hardware/mailserver)
+<!--### Chat & questions
 
-# This docker image is no longer maintained.
-
-:warning:
-
-## hardware/mailserver
-
-### Chat & questions
-
-[![](https://badges.gitter.im/hardware-mailserver/Lobby.svg)](https://gitter.im/hardware-mailserver/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![](https://badges.gitter.im/hardware-mailserver/Lobby.svg)](https://gitter.im/hardware-mailserver/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) -->
 
 ### Build
 
@@ -16,7 +10,7 @@
 
 ### Docker image
 
-[![](https://images.microbadger.com/badges/image/hardware/mailserver:1.1-latest.svg)](https://microbadger.com/images/hardware/mailserver:1.1-latest) [![](https://img.shields.io/docker/automated/hardware/mailserver.svg)](https://hub.docker.com/r/hardware/mailserver/builds/) [![](https://img.shields.io/docker/pulls/hardware/mailserver.svg)](https://hub.docker.com/r/hardware/mailserver/) [![](https://img.shields.io/docker/stars/hardware/mailserver.svg)](https://hub.docker.com/r/hardware/mailserver/) [![](https://img.shields.io/badge/bitcoin-donate-green.svg)](https://keybase.io/hardware)
+[![](https://images.microbadger.com/badges/image/bcornelsen/mailserver:0.1.svg)](https://microbadger.com/images/bcornelsen/mailserver:0.1) [![](https://img.shields.io/docker/automated/bcornelsen/mailserver.svg)](https://hub.docker.com/r/bcornelsen/mailserver/builds/) [![](https://img.shields.io/docker/pulls/bcornelsen/mailserver.svg)](https://hub.docker.com/r/bcornelsen/mailserver/) [![](https://img.shields.io/docker/stars/bcornelsen/mailserver.svg)](https://hub.docker.com/r/bcornelsen/mailserver/)
 
 **hardware/mailserver** is a simple and full-featured mail server build as a set of multiple docker images, including:
 
@@ -40,8 +34,8 @@
 
 ### Summary
 
-- [hardware/mailserver](#hardwaremailserver)
-  - [Chat & questions](#chat--questions)
+- [bcornelsen/mailserver](#hardwaremailserver)
+   <!-- - [Chat & questions](#chat-_-questions) -->
   - [Build](#build)
   - [Docker image](#docker-image)
   - [Summary](#summary)
@@ -92,6 +86,10 @@
   - [Community projects](#community-projects)
   - [Some useful Thunderbird extensions](#some-useful-thunderbird-extensions)
   - [Donation](#donation)
+
+### Disclaimer
+
+This repository is forked from hardware/mailserver (unmaintained) and updated to the current versions of the used software.
 
 ### System Requirements
 
