@@ -197,6 +197,8 @@ fi
 # ENVIRONMENT VARIABLES TEMPLATING
 # ---------------------------------------------------------------------------------------------
 
+env
+
 # Avoid gucci error if cron file doesn't exist
 if [ ! -f /etc/cron.d/fetchmail ]; then
   touch /etc/cron.d/fetchmail
@@ -585,6 +587,8 @@ mkdir -p /var/run/dovecot
 chown -R dovecot:dovecot /var/run/dovecot
 chown -R vmail:vmail /var/mail/sieve
 chmod +x /etc/dovecot/sieve/*.sh
+chmod o-w /etc/dovecot/sieve/*.sh
+
 
 # Check permissions of vhosts directories
 find /var/mail/vhosts ! -user vmail -print0 | xargs -0 -r chown vmail:vmail
